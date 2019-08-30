@@ -71,7 +71,7 @@ xl2tpd
 xorg-server
 xorg-apps
 xorg-xinit
-xterm
+
 
 #video
 #xorg-drivers
@@ -241,7 +241,7 @@ numlockx
 #qbittorrent
 #scrot
 #simplescreenrecorder
-termite
+#termite
 #tint2
 #variety
 #vlc
@@ -297,7 +297,7 @@ lightdm-gtk-greeter-settings
 
 #themes
 #adapta-gtk-theme
-arc-gtk-theme
+#arc-gtk-theme
 #kvantum-qt5
 #kvantum-theme-arc
 
@@ -345,7 +345,7 @@ mlocate
 #p7zip
 #plank
 #playerctl
-#polkit
+polkit
 #polkit-gnome
 #python2-dbus
 #python2-xdg
@@ -425,16 +425,18 @@ yay-bin
 #xfdesktop
 #xfwm4
 #xfwm4-themes
-mousepad
-awesome
-termite
+geany
+lxqt
+midori
+oxygen-icons
+
 
 
 #Needed for Calamares installer
 #pythonqt-git
 calamares
-arch-iso-settings
-arch-calamares-netinstall
+archgi-iso-settings
+archgi-calamares-config
 ckbcomp
 upower
 kcoreaddons

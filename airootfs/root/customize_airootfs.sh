@@ -28,6 +28,8 @@ groupadd -r autologin
 gpasswd -a archnet autologin
 groupadd -r nopasswdlogin
 gpasswd -a archnet nopasswdlogin
+##
+echo "archnet ALL=(ALL) ALL" >> /etc/sudoers
 echo "The account archnet with no password has been created"
 
 systemctl enable pacman-init.service choose-mirror.service
